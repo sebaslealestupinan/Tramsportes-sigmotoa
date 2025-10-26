@@ -1,0 +1,95 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+
+# --- Virtual Environments ---
+env/
+venv/
+ENV/
+.venv/
+venv.bak/
+*.env
+*.venv
+
+# --- Environment & Config ---
+*.env
+.env.*
+
+# --- Logs & Debug ---
+*.log
+*.pot
+*.mo
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+
+# --- Compiled Bytecode / Cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db-journal
+
+# --- Databases ---
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# --- IDEs & Editors ---
+# PyCharm / IntelliJ
+.idea/
+*.iml
+# VSCode
+.vscode/
+# Other IDEs
+*.swp
+*.swo
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- FastAPI specific (optional) ---
+# Uvicorn reload files
+*.pid
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Testing ---
+.tox/
+.pytest_cache/
+tests/__pycache__/
+.coverage
+
+# --- Documentation ---
+docs/_build/
+site/
+
+# --- Misc ---
+*.bak
+*.tmp
+*.temp
+*.old
+
+# --- Local tools ---
+data/
+notebooks/
+__snapshots__/
